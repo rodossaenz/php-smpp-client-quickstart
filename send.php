@@ -2,15 +2,15 @@
 
 	include 'class.smpp.php';
 
-        $src  = "phone_number"; // or text
-        $dst  = "phone_number";
-        $message = "Test Message";
-        $host = "smpp_host"; // ip or domain
-        $port = "port"; // must be integer
+	$src  = "phone_number"; // or text
+	$dst  = "phone_number";
+	$message = "Test Message";
+	$host = "smpp_host"; // ip or domain
+	$port = "port"; // must be integer
 
-        $smpp_user = "username";
-        $smpp_pass = "password";
-        $system_type = "";
+	$smpp_user = "username";
+	$smpp_pass = "password";
+	$system_type = "";
 
 	$s = new smpp();
 	$s->debug=1;
